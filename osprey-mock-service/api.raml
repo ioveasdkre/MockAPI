@@ -1,0 +1,20 @@
+#%RAML 1.0
+title: Example_API
+baseUri: http://localhost:3000/
+mediaType: application/json
+version: 1.0
+
+/api/Home/Index:
+  get:
+    responses:
+      200:
+        body:
+            example:
+                world
+
+/api/Home/json:
+  get:
+    responses:
+      200:
+        body:
+            example: !include example/Init.json

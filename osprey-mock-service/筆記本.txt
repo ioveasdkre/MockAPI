@@ -1,0 +1,8 @@
+安裝全域環境
+npm install -g osprey-mock-service
+
+使用 cmd執行 run.cmd執行 假 API Server
+
+參考資料
+https://medium.com/raml-api/quick-mocks-with-osprey-mock-service-ef46d72491b7
+https://github.com/mulesoft-labs/osprey-mock-service
